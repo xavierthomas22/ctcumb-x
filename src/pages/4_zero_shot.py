@@ -6,7 +6,7 @@ st.write("# Welcome to CUTUMB ZERO SHOT TEMP 2! 👋")
 # print('hello')
 
 
-from IPython.display import Image, display
+from PIL import Image
 from autogluon.multimodal import download
 
 url = "https://farm4.staticflickr.com/3445/3262471985_ed886bf61a_z.jpg"
