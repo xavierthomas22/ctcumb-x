@@ -9,13 +9,13 @@ st.write("# Welcome to CUTUMB ZERO SHOT TEMP 2! 👋")
 # from IPython.display import Image, display
 # from autogluon.multimodal import download
 
-# url = "https://farm4.staticflickr.com/3445/3262471985_ed886bf61a_z.jpg"
-# image = download(url)
+url = "https://farm4.staticflickr.com/3445/3262471985_ed886bf61a_z.jpg"
+image = download(url)
 
 # pil_img = Image(filename=image)
 # # display(pil_img)
 
-# # st.image(pil_img)
+st.image(pil_img)
 # # exit()
 
 # from autogluon.multimodal import MultiModalPredictor
