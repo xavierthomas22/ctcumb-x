@@ -13,13 +13,13 @@ url = "https://farm4.staticflickr.com/3445/3262471985_ed886bf61a_z.jpg"
 image = download(url)
 
 pil_img = Image.open(image)
-st.image(pil_img)
 st.image(image, caption='Example Image')
 # # exit()
 
 from autogluon.multimodal import MultiModalPredictor
 
-class_texts = ['This is a Husky', 'This is a Golden Retriever', 'This is a German Sheperd', 'This is a Samoyed.']
+class_names = ['Husky', 'Golden Retriever', 'German Sheper', 'Samoyed']
+class_texts = [f'A photo of a {i}' for i in class_names]
 
 predictor = MultiModalPredictor(pipeline="zero_shot_image_classification")
 prob = predictor.predict_proba({"image": [image]}, {"text": class_texts})
@@ -28,3 +28,4 @@ print("Label probs:", prob_tensor)
 
 values, indices = prob_tensor.topk(3)
 print(indices)
+st.write(f"{indices}")
