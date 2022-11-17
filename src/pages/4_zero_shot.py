@@ -1,7 +1,7 @@
 import streamlit as st
-# import torch
+import torch
 
-st.write("# Welcome to CUTUMB ZERO SHOT TEMP! 👋")
+st.write("# Welcome to CUTUMB ZERO SHOT TEMP 2! 👋")
 
 # print('hello')
 
