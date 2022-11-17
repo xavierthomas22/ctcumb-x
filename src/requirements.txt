@@ -1,3 +1,4 @@
 setuptools
 wheel
+IPython
 autogluon==0.6.0
