@@ -1,5 +1,6 @@
-streamlit
-setuptools
-wheel
-IPython
-autogluon==0.6.0
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==1.12+cpu
+torchvision==0.13.0+cpu
+torchtext==0.13.0
+
+autogluon
