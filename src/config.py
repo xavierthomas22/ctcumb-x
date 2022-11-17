@@ -1,4 +1,4 @@
 params = {
-    "gcs_bucket": "gs://bucket_name",
-
+    "gcs_data_path": "cutumb_datastore",
+    "local_data_path": "data",
 }

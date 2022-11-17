@@ -1,2 +1,11 @@
-
-src/pages/3262471985_ed886bf61a_z.jpg
+*csv
+data/*
+*pth
+*pkl
+*pyc
+*html
+*params
+DEL.py
+images/
+stl10_images/*
+*.pyc
